@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+
 const API_URL = 'https://localhost:7166/api/Investments';
 
 interface InvestmentData {

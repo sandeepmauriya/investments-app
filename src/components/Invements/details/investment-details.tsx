@@ -24,7 +24,7 @@ const InvestmentDetails: React.FC = () => {
         // Fetch the investment details when the component mounts
         const fetchInvestmentDetails = async () => {
           try {
-            alert(customerID);
+            //alert(customerID);
             const investmentData = await InvestmentService.getInvestmentDetails(customerID);
             setInvestment(investmentData); // Assuming the response is an array and taking the first element
             setLoading(false);

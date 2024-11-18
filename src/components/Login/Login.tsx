@@ -16,7 +16,7 @@ const Login = () => {
         try {
             // Call the service function to fetch the customer ID
             const response = await authService.getCustomerIdByEmail(email);
-            alert(response);
+          //  alert(response);
 
            
             const customerID = response;

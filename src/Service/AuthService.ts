@@ -3,7 +3,7 @@ import axios from 'axios';
 // Define the type for the response (customer ID)
 type CustomerIdResponse = number;
 
-const API_URL = 'https://localhost:7166/api/Auth/';
+const API_URL = 'https://localhost:7166/api/Auth/';//
 
 // Service to get customer ID by email
 const getCustomerIdByEmail = async (email: string): Promise<CustomerIdResponse> => {
